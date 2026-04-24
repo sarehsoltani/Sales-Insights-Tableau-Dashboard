@@ -1,6 +1,6 @@
 # Tableau Sales Analytics Pipeline
 
-![Dashboard Preview](Tableau Dashboard.png)
+![Dashboard Preview](<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/e6bf7e7e-6d99-48fd-8d51-64e7ceef3a3b" />)
 
 ## Project Overview
 This project provides detailed business intelligence insights into the sales of a branch shop operating across multiple markets. The insights are derived from a sales database containing customer information, transaction records, market names, and product details.
