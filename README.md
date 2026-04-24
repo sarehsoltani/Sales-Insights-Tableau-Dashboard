@@ -26,14 +26,16 @@ A rigorous ETL workflow was implemented to prepare the raw data for high-level a
 
 
 
-## 🏗 Data Source & Modeling
+## Data Source & Modeling
 The project utilizes a **Star Schema** with the following tables:
-* **Transactions (Fact Table):** `Order Date`, `Sales Quantity`, `Sales Amount`, `Product Code`, `Market Code`, `Customer Code`, `Currency`.
-* **Customers (Dimension):** `Customer Code`, `Customer Name`, `Customer Type`.
-* **Markets (Dimension):** `Market Code`, `Market Name`.
-* **Products (Dimension):** `Product Code`, `Product Type`.
+* **Customers:** `Customer Code`, `Customer Name`, `Customer Type`
+* **Transactions:** `Order Date`, `Sales Quantity`, `Sales Amount`, `Product Code`, `Market Code`, `Customer Code`, `Currency`
+* **Markets:** `Market Code`, `Market Name`
+* **Products:** `Product Code`, `Product Type`
 
-## 📊 Key Metrics & Visualizations
+🔗 **You can find the SQL dump of the database [here](https://github.com/codebasics/DataAnalysisProjects/blob/master/2_SalesInsightsTableau/db_dump.sql).**
+
+## Key Metrics & Visualizations
 * **Revenue Trend by Time:** Monthly line chart to identify growth patterns and seasonality.
 * **Revenue by Market:** Performance comparison across different regions.
 * **Sales Quantity by Market:** Distribution of product volume by geography.
@@ -41,7 +43,7 @@ The project utilizes a **Star Schema** with the following tables:
 * **Top 5 Products by Revenue:** Analysis of top-selling inventory.
 
 
-## 🚀 Key Features & Functionality
+## Key Features & Functionality
 * **Interactive Filtering:** Global year-over-year (2017–2020) toggles.
 * **KPI Tiles (BANs):** Dynamic summaries of Total Revenue and Sales Quantity.
 * **Regional & Customer Analysis:** Identification of top-performing markets (Delhi NCR) and key customer segments.
